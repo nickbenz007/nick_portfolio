@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nick's Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with the latest web technologies. This portfolio showcases projects, professional experience, technical skills, and provides a way for visitors to get in touch.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=flat&logo=tailwind-css)
+
+---
+
+## ✨ Features
+
+### For Visitors & Clients
+
+- **Responsive Design** – Looks great on all devices from mobile phones to desktops
+- **Project Showcase** – Browse through featured projects with detailed descriptions
+- **Skills Overview** – Explore technical expertise and professional journey
+- **Contact Form** – Easy way to get in touch directly from the website
+- **Modern UI/UX** – Clean, professional design with smooth animations
+
+### For Developers
+
+- **Next.js 16 App Router** – Modern React framework with server-side rendering
+- **TypeScript** – Full type safety for reliable code
+- **Tailwind CSS v4** – Utility-first styling with modern CSS features
+- **Framer Motion** – Smooth, production-ready animations
+- **RESTful API Routes** – Built-in API endpoints for contact and projects
+
+---
+
+## 🛠 Tech Stack
+
+| Category       | Technology                                     |
+| -------------- | ---------------------------------------------- |
+| **Framework**  | [Next.js 16](https://nextjs.org)               |
+| **Language**   | [TypeScript](https://www.typescriptlang.org)   |
+| **Styling**    | [Tailwind CSS 4](https://tailwindcss.com)      |
+| **Animations** | [Framer Motion](https://www.framer.com/motion) |
+| **Runtime**    | Node.js                                        |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18.18.0 or higher
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
-npm run dev
+# Clone the repository
+git clone <repository-url>
+cd mern-portfolio
+
+# Install dependencies
+npm install
 # or
-yarn dev
+yarn install
 # or
-pnpm dev
+pnpm install
 # or
-bun dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Start the development server
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Open in browser
+# Visit http://localhost:3000
+```
 
-## Learn More
+### Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Create production build
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Start production server
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+mern-portfolio/
+├── app/                          # Next.js App Router
+│   ├── api/                     # API Routes
+│   │   ├── contact/            # Contact form API
+│   │   └── projects/           # Projects API
+│   ├── components/             # Reusable React components
+│   │   ├── cta/               # Call-to-action components
+│   │   ├── layout/            # Layout components (Navbar, Footer)
+│   │   ├── RecentAchievements/ # Stats and terminal components
+│   │   └── sections/          # Page sections (Hero, Featured Projects)
+│   ├── contact/               # Contact page
+│   ├── projects/              # Projects listing page
+│   ├── skills/                # Skills & journey page
+│   └── lib/                   # Utility functions
+├── public/                     # Static assets
+│   ├── icons/                 # SVG icons
+│   ├── logos/                 # Company logos
+│   ├── profile/               # Profile images
+│   └── projects/              # Project screenshots
+└── Configuration files        # next.config.ts, tailwind.config.ts, etc.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔧 Available Scripts
+
+| Command         | Description              |
+| --------------- | ------------------------ |
+| `npm run dev`   | Start development server |
+| `npm run build` | Build for production     |
+| `npm run start` | Start production server  |
+| `npm run lint`  | Run ESLint               |
+
+---
+
+## 📄 License
+
+This project is for personal portfolio use. All rights reserved to Nick.
+
+---
+
+## 📬 Contact
+
+Feel free to reach out through the contact form on the website or connect via social media.
+
+---
+
+_Built with ❤️ using Next.js and modern web technologies_
