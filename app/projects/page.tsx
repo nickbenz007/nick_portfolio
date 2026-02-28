@@ -1,6 +1,5 @@
 import WorkTogetherCTA from '../components/cta/WorkTogetherCTA';
 import PageContainer from '../components/layout/PageContainer';
-import { ProjectFilters } from './components/ProjectFilters';
 import { ProjectGrid } from './components/ProjectGrid';
 import type { Metadata } from 'next';
 
@@ -20,7 +19,6 @@ export const ProjectsPage = () => {
                     backend architectures."
     >
       <div className="mt-10 space-y-10">
-        <ProjectFilters />
         <ProjectGrid />
       </div>
       <WorkTogetherCTA />

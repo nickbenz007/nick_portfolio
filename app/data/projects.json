@@ -1,0 +1,18 @@
+[
+  {
+    "id": "rv-dashboard",
+    "title": "RV Intake Dashboard",
+    "slug": "rv-intake-dashboard",
+    "description": "Full-stack dashboard for managing RV intake forms.",
+    "longDescription": "Detailed explanation of architecture, challenges, and solutions.",
+    "image": "/projects/1.png",
+    "techStack": ["React", "Node.js", "MongoDB"],
+    "features": [
+      "CSV Export",
+      "Dynamic Forms",
+      "Conditional Modals"
+    ],
+    "github": "https://github.com/...",
+    "liveUrl": "https://..."
+  }
+]
